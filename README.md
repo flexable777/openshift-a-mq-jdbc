@@ -1,0 +1,1 @@
+# openshift-a-mq-jdbc
