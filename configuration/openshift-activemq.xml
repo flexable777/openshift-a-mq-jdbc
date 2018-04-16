@@ -70,7 +70,7 @@
 
         <!-- ##### PERSISTENCE_ADAPTER ##### -->
         <persistenceAdapter>
-            <jdbcPersistenceAdapter dataDirectory="${data}" dataSource="#mssql-ds" createTablesOnStartup="true" lockKeepAlivePeriod="5000">
+            <jdbcPersistenceAdapter dataDirectory="${activemq.data}" dataSource="#mssql-ds" createTablesOnStartup="true" lockKeepAlivePeriod="5000">
                 <adapter>
                     <transact-jdbc-adapter/>
                 </adapter>
